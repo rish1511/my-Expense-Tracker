@@ -1,0 +1,15 @@
+.scroll-container::-webkit-scrollbar {
+  background: transparent;
+  scroll-behavior: smooth;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 4px;
+  display: none;
+  transition: background-color 0.8s;
+}
+
+.scroll-container:hover::-webkit-scrollbar-thumb {
+  display: block;
+}
