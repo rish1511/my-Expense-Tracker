@@ -124,9 +124,9 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-black font-mono w-full h-[5vh] font-bold text-white text-center">
+      <div className="bg-black font-mono w-full md:h-[5vh] font-bold text-white text-center">
         Created by Rishabh Sharma : 2025 June,
-        <span className="text-blue-400 font-light"> Copyright is possible</span>
+        <span className="text-blue-400 font-light text-[15px] md:text-xl"> Copyright is possible</span>
       </div>
     </>
   );
